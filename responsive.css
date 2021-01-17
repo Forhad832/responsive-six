@@ -1,0 +1,502 @@
+@media (max-width:1400px){
+    nav {
+        right: 50px;
+    }
+    .service.left {
+        margin-left: 24px;
+        margin-right: 4px;
+    }
+}
+@media (max-width:1199px){
+    nav {
+        right: 25px;
+    }
+    nav ul li a {
+        padding: 0 16px;
+    }
+    .about {
+        margin-left: 68px;
+    }
+    .about-all.left {
+        width: 40%;
+    }
+    .skill.left {
+        margin-left: 80px;
+    }
+    .service.left {
+        margin-left: 25px;
+        margin-right: 0px;
+        width: 31%;
+    }
+    .half-width {
+        margin-left: 72px;
+    }
+    .project h2 {
+        font-size: 35px;
+        position: relative;
+        right: 257px;
+    }
+    .project p {
+        font-size: 17px;
+    }
+    .project button {
+        padding: 10px 40px;
+    }
+    .work p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    #mail {
+        width: 139px;
+        padding: 20px 30px;
+    }
+    .full-width {
+        width: 385px;
+    }
+    #message {
+        width: 406px;
+    }
+    .own-pic img {
+        width: 90px;
+    }
+    .own-bio p {
+        font-size: 14px;
+    }
+    .own-bio button {
+        margin-left: 348px;
+    }
+    .btn {
+        margin-top: 41px;
+        padding: 16px 29px;
+        margin-left: 180px;
+    }
+}
+@media (max-width:1100px){
+    .service.left {
+        margin-left: 24px;
+        width: 30%;
+    }
+    .posi-right {
+        margin-left: 85px;
+    }
+}
+@media (max-width:1050px){
+    .about-all.left {
+        width: 39%;
+    }
+    .about-details h1 {
+        font-size: 32px;
+    }
+    .about-details h3 {
+        font-size: 23px;
+    }
+    .about-details p {
+        font-size: 19px;
+    }
+    .about-details {
+        width: 558px; 
+    }
+    .about {
+        margin-left: 20px;
+    }
+    .service.left {
+        margin-left: 27px;
+        margin-right: 26px;
+        width: 28%;
+    }
+    .service img {
+        margin-left: 90px;
+    }
+    .project h2 {
+        font-size: 31px;
+        right: 0;
+    }
+    .posi-right {
+        margin-left: 50px;
+    }
+}
+.checkbtn #check{
+    display: none;
+}
+@media (max-width:992px){
+    .menu-toggle{
+        display: block;
+
+    }
+    .active{
+        display: block;
+    }
+    nav {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: -100%;
+        height: calc(73vh - 50px);
+        transition: 0.5s;
+        background: #333;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+       
+    }
+     nav.active{
+         left: 0;
+     }
+    nav ul li a {
+        color: #fff;
+        border-bottom: 1px solid rgb(0, 0, 0, .2);
+        display: block;
+        padding: 10px 15px;
+        line-height: 30px;
+    }
+    .about-all.left {
+        width: 81%;
+        margin-left: 153px;
+    }
+    .about {
+        margin-left: 180px;
+        width: 300px;
+    }
+    .follow-bio.left {
+        top: 110px;
+        margin-left: 57px;
+    }
+    .follow.left {
+        top: 110px;
+        left: 132px;
+    }
+    .about button {
+        margin-left: 74px;
+    }
+    .about-details {
+        width: 478px;
+        margin-left: 85px;
+    }
+    .about-details h1 {
+        font-size: 26px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+    .about-details h3 {
+        font-size: 21px;
+        margin-bottom: 21px;
+    }
+    .about-details p {
+        font-size: 15px;
+    }
+    .skill.left {
+        width: 76%;
+    }
+    .more-bio {
+        margin-right: 29px;
+        margin-top: 64px;
+    }
+    .more-bio li {
+        font-size: 14px;
+    }
+    .service.left {
+        margin-left: 50px;
+        margin-right: 27px;
+        width: 90%;
+    }
+    .service img {
+        margin-left: 315px;
+    }
+    .half-width {
+        margin-left: 50px;
+        width: 90%;
+    }
+ 
+    .work {
+        width: 85%;
+        margin-left: 8%;
+        margin-right: 10px;
+    }
+    .work h2 {
+        font-size: 18px;
+    }
+    .posi-right {
+        margin-left: 410px;
+    }
+  
+    .own-bio {
+        width: 89%;
+        margin-left: 35px;
+    }
+    .box {
+        padding-bottom: 10px;
+    }
+    .own-bio button {
+        margin-left: 555px;
+    }
+    .project h2 {
+        font-size: 26px;
+        right: 0;
+    }
+    .project p {
+        font-size: 15px;
+    }
+}
+@media (max-width:768px){
+    .nav ul li a {
+        padding: 0 5px;
+    }
+    .about-section h1 {
+        font-size: 30px;
+    }
+    .about-all.left {
+        width: 90%;
+        margin-left: 0;
+    }
+    .about-details {
+        width: 478px;
+        margin-left: 100px;
+    }
+    .about {
+        margin-left: 213px;
+    }
+    .profile h1 {
+        font-size: 31px;
+        margin-bottom: 22px;
+    }
+    .skills h1 {
+        font-size: 30px;
+    }
+    .skill.left {
+        width: 73%;
+    }
+    .service-section h1 {
+        font-size: 30px;
+    }
+    .service.left {
+        margin-left: 20px;
+        margin-right: 0;
+        width: 95%;
+    }
+    .service img {
+        margin-left: 300px;
+    }
+    .experiene-section h1 {
+        font-size: 30px;
+    }
+    .half-width {
+        width: 90%;
+        margin-left: 50px;
+    }
+    .project h2 {
+        font-size: 26px;
+        right: 0;
+    }
+    .work-section h1 {
+        font-size: 30px;
+    }
+    .work {
+        width: 91%;
+        margin-left: 40px;
+    }
+    .posi-right {
+        margin-left: 370px;
+    }
+    .reviwer-section h1 {
+        font-size: 30px;
+    }
+    .get-in-section h1 {
+        font-size: 30px;
+    }
+    .own-bio button {
+        margin-left: 510px;
+    }
+}
+@media (max-width:576px){
+ 
+  
+    .logo h2 {
+        position: absolute;
+        font-size: 36px;
+        text-align: center;
+    }
+    .profile img {
+        width: 15%;
+        border-radius: 43%;
+    }
+    .profile h1 {
+     font-size: 30px;
+    }
+    .profile h3 {
+        font-size: 20px;
+    }
+    .about {
+        margin-left: 130px;
+    }
+    .about-section {
+        padding: 0;
+    }
+
+    .about-section h1 {
+        font-size: 22px;
+    }
+    .about-details h3 {
+        font-size: 16px;
+    }
+    .about-details p {
+        font-size: 15px;
+    }
+    .about-details {
+        width: 400px;
+        margin-left: 55px;
+    }
+    .more-bio {
+        margin-right: 22px;
+        margin-top: 50px;
+    }
+    .more-bio li {
+        font-size: 13px;
+    }
+    .service.left {
+        margin-left: 13px;
+    }
+    .service img {
+        margin-left: 210px;
+    }
+    .half-width {
+        margin-left: 30px;
+    }
+    .work {
+        margin-left: 30px;
+    }
+    .posi-right {
+        margin-left: 215px;
+    }
+    .reviwer-bio {
+        width: 450px;
+    }
+    .revier-face.text-center {
+        margin-top: 30px;
+    }
+    .own-bio {
+        margin-left: 20px;
+    }
+    .own-bio button {
+        margin-left: 313px;
+    }
+}
+@media (max-width:420px){
+    .about {
+        margin-left: 48px;
+    }
+    .about h2 {
+        font-size: 25px;
+    }
+    .about button {
+        padding: 10px 21px;
+    }
+    .about-details {
+        width: 324px;
+        margin-left: 12px;
+    }
+    .about-section h1 {
+        font-size: 25px;
+    }
+    .about-details h3 {
+        font-size: 15px;
+    }
+    .logo h2 {
+        font-size: 34px;
+    }
+    .skill.left {
+        margin-left: 50px;
+    }
+    .more-bio {
+        margin-right: 16px;
+        margin-top: 45px;
+    }
+    .more-bio li {
+        font-size: 11px;
+    }
+    .profile img {
+        width: 20%;
+    }
+    .service.left {
+        margin-left: 8px;
+        width: 95%;
+    }
+    .service img {
+        margin-left: 135px;
+    }
+    .experiene-section h1 {
+        font-size: 25px;
+    }
+    .get-in-section h1 {
+        font-size: 25px;
+    }
+    .reviwer-section h1 {
+        font-size: 25px;
+    }
+    .service-section h1 {
+        font-size: 25px;
+    }
+    .half-width {
+        margin-left: 20px;
+    }
+    .project h2 {
+        font-size: 20px;
+        right: 0;
+    }
+    .project p {
+        font-size: 14px;
+    }
+    .project button {
+        padding: 8px 22px;
+    }
+    .work-section h1 {
+        font-size: 25px;
+    }
+    .work {
+        margin-left: 16px;
+    }
+    .posi-right {
+        margin-left: 95px;
+    }
+    .reviwer-section h1 {
+        font-size: 22px;
+    }
+    .revier-face.text-center h2 {
+        margin-top: 15px;
+    }
+    .reviwer-bio {
+        width: 370px;
+    }
+    .reviwer-bio p {
+        font-size: 14px;
+    }
+    .get-in-section h1 {
+        font-size: 22px;
+    }
+    .own-pic {
+        width: 146px;
+        margin-left: 0;
+    }
+    .own-bio {
+        margin-left: 7px;
+    }
+    .own-bio button {
+        margin-left: 225px;
+        padding: 8px 27px;
+    }
+    #mail {
+        width: 250px;
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+    .full-width {
+        width: 293px;
+    }
+    #message {
+        width: 320px;
+    }
+    .btn {
+        padding: 13px 17px;
+        margin-left: 130px;
+    }
+}
